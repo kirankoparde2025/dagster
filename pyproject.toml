@@ -1,0 +1,10 @@
+[project]
+name = "dagster-hello-world"
+version = "0.1.0"
+dependencies = [
+    "dagster",
+    "dagster-webserver",
+]
+
+[tool.dagster]
+module_name = "dagster_hello.definitions"
